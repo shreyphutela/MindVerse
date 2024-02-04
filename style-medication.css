@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+    background-color:white;
+}
+
+.section {
+    background-image: url("C:\Users\deb\Desktop\mental health platform\free-online-therapy-versus-paid-counseling_1320W-JW-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    position: relative;
+    height: 50vh;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:black;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    height: 20vh;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}

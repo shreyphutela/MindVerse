@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindVista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MindVista</h1>
+        <p>Your Mental Health Partner</p>
+        <nav>
+            <ul>
+                <li><a href="tests.html">Tests</a></li>
+                <li><a href="specialists.html">Specialists</a></li>
+                <li><a href="medication.html">Medication</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="welcome-container">
+                <h2>Welcome to MindVista</h2>
+                <p>Your path to mental wellness begins here. MindVista is a platform designed to support your mental health journey.</p>
+            </div>
+
+            <div class="features-container">
+                <div class="feature">
+                    <h3>Online Mental Health Tests</h3>
+                    <p>Take our online tests to assess your mental health and receive personalized insights.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Professional Consultation</h3>
+                    <p>Connect with experienced mental health professionals for personalized consultations.</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Community Support</h3>
+                    <p>Join our community to share thoughts, experiences, and support each other on your mental health journey.</p>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <a href="#tests" class="cta-button">Take the Test</a>
+            </div>
+        </section>
+
+        <section id="tests">
+            <div class="tests-container">
+                <h2>Online Mental Health Tests</h2>
+                <p>Take our online tests to gain insights into your mental health. Your results will be confidential and can guide you towards the right resources.</p>
+            </div>
+
+            
+
+    <div class="gad7-form-container">
+        <h3>ANXIETY TEST</h3>
+        <form id="gad7-form">
+          
+            <p>Over the last two weeks, how often have you been bothered by feeling nervous, anxious, or on edge?</p>
+            <label><input type="radio" name="gad7-q1" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q1" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q1" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q1" value="3"> Nearly every day</label>
+            
+            <p>Over the last two weeks, how often have you been bothered by not being able to stop or control worrying?</p>
+            <label><input type="radio" name="gad7-q2" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q2" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q2" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q2" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by worrying too much about different things?</p>
+            <label><input type="radio" name="gad7-q3" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q3" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q3" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q3" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by having trouble relaxing?</p>
+            <label><input type="radio" name="gad7-q4" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q4" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q4" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q4" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by being so restless that it's hard to sit still?</p>
+            <label><input type="radio" name="gad7-q5" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q5" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q5" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q5" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by becoming easily annoyed or irritable?</p>
+            <label><input type="radio" name="gad7-q6" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q6" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q6" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q6" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by feeling afraid, as if something awful might happen?</p>
+            <label><input type="radio" name="gad7-q7" value="0"> Not at all</label>
+            <label><input type="radio" name="gad7-q7" value="1"> Several days</label>
+            <label><input type="radio" name="gad7-q7" value="2"> More than half the days</label>
+            <label><input type="radio" name="gad7-q7" value="3"> Nearly every day</label>
+
+
+            <button type="button" onclick="submitGad7()">SUBMIT ANXIETY TEST</button>
+        </form>
+    </div>
+
+    <div class="phq9-form-container">
+        <h3>Depression Test</h3>
+        <form id="phq9-form">
+            
+            <p>Over the last two weeks, how often have you been bothered by little interest or pleasure in doing things?</p>
+            <label><input type="radio" name="phq9-q1" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q1" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q1" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q1" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by feeling down, depressed, or hopeless?</p>
+            <label><input type="radio" name="phq9-q2" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q2" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q2" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q2" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by trouble falling or staying asleep, or sleeping too much?</p>
+            <label><input type="radio" name="phq9-q3" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q3" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q3" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q3" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by poor appetite or overeating?</p>
+            <label><input type="radio" name="phq9-q4" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q4" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q4" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q4" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by feeling tired or having little energy?</p>
+            <label><input type="radio" name="phq9-q5" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q5" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q5" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q5" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by feeling bad about yourself - or that you are a failure or have let yourself or your family down?</p>
+            <label><input type="radio" name="phq9-q6" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q6" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q6" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q6" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by trouble concentrating on things, such as reading the newspaper or watching television?</p>
+            <label><input type="radio" name="phq9-q7" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q7" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q7" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q7" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?</p>
+            <label><input type="radio" name="phq9-q8" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q8" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q8" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q8" value="3"> Nearly every day</label>
+
+            <p>Over the last two weeks, how often have you been bothered by thoughts that you would be better off dead, or of hurting yourself in some way?</p>
+            <label><input type="radio" name="phq9-q9" value="0"> Not at all</label>
+            <label><input type="radio" name="phq9-q9" value="1"> Several days</label>
+            <label><input type="radio" name="phq9-q9" value="2"> More than half the days</label>
+            <label><input type="radio" name="phq9-q9" value="3"> Nearly every day</label>
+
+
+
+
+            
+
+            <button type="button" onclick="submitPhq9()">SUBMIT DEPRESSION TEST</button>
+        </form>
+    </div>
+
+        </section>
+
+        <section id="consultation">
+            <div class="consultation-container">
+                <h2>Professional Consultation</h2>
+                <p>Connect with experienced mental health professionals for personalized consultations. Your well-being is our priority.</p>
+            </div>
+
+            <div class="consultation-form-container">
+                <form id="consultation-request-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Additional Message (optional)</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <button type="button" onclick="submitConsultationRequest()">Request Consultation</button>
+                </form>
+            </div>
+        </section>
+        <section id="community">
+            <div class="community-container">
+                <h2>Community</h2>
+                <p>Join our community of like-minded individuals to connect with others who share your passion for mindfulness and meditation.</p>
+                <ul>
+                    <li><a href="https://www.example1.com">Example Community 1</a></li>
+                    <li><a href="https://www.example2.com">Example Community 2</a></li>
+                    <!-- ... -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 MindVista. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
